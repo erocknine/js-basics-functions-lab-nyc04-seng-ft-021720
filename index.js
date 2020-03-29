@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(pickup){
-  distance = 42 - pickup
+  let distance = 42 - pickup
   return distance
 }
 
