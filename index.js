@@ -1,7 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(pickup){
   let distance = 43 - pickup
-  return distance
+  return Math.abs(distance)
 }
 
 function distanceTravelledInFeet(start, finish) {
