@@ -1,6 +1,7 @@
 // Code your solution in this file!
-function distance(pickup){
+function distanceFromHqInBlocks(pickup){
   distance = 42 - pickup
+  return distance
 }
 
 function distanceTravelledInFeet(start, finish) {
