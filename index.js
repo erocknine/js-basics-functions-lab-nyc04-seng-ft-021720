@@ -12,4 +12,6 @@ function distanceTravelledInFeet(loc1, loc2){
   let distance = Math.abs(loc1 - loc2)
 }
 
-function calculatesFarePrice
+function calculatesFarePrice() {
+  
+}
