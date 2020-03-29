@@ -9,7 +9,7 @@ function distanceFromHqInFeet(distance) {
 }
 
 function distanceTravelledInFeet(loc1, loc2){
-  let distance = Math.abs(loc1 - loc2)
+  return Math.abs(loc1 - loc2)
 }
 
 function calculatesFarePrice() {
