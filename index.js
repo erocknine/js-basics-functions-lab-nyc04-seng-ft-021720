@@ -12,6 +12,16 @@ function distanceTravelledInFeet(loc1, loc2){
   return Math.abs(loc1 - loc2) * 264
 }
 
-function calculatesFarePrice() {
-  
+function calculatesFarePrice(loc1, loc2) {
+  let distance = distanceTravelledInFeet(loc1, loc2)
+  let cost;
+  if (distance < 400){
+    return cost = distance * 0.02;
+  }
+  else if (distance > 2000 && distance < 2500) {
+    return cost = 25;
+  }
+  else if (distance > 2500){
+    return 'cannot travel that far'
+  }
 }
