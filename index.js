@@ -2,7 +2,7 @@
 function distanceFromHqInBlocks(pickup){
   let distance = 42 - pickup
   
-  return '${Math.abs(distance)} blocks.'
+  return Math.abs(distance)
 }
 
 function distanceTravelledInFeet(start, finish) {
