@@ -4,7 +4,7 @@ function distanceFromHqInBlocks(pickup){
   return Math.abs(distance)
 }
 
-function distanceTravelledInFeet(distance) {
+function distanceFromHqInFeet(distance) {
   let distanceInFeet = Math.abs(distanceFromHqInBlocks(distance)) * 264;
   return distanceInFeet
 }
