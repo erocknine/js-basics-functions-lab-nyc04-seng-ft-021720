@@ -5,7 +5,6 @@ function distanceFromHqInBlocks(pickup){
 }
 
 function distanceTravelledInFeet(distance) {
-  let blocks = distanceFromHqInBlocks(distance)
-  distanceInFeet = Math.abs(blocks) * 264;
+  let distanceInFeet = Math.abs(distanceFromHqInBlocks(distance)) * 264;
   return distanceInFeet
 }
